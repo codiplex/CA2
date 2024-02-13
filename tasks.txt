@@ -1,0 +1,16 @@
+i200436:
+Modify the background color of the web page to blue.
+Change the font color of the "Hello World" message to green.
+Center align the "Hello World" message.
+Create a GitHub Actions workflow file (feature-1.yml, feature-2.yml, feature-3.yml) for each feature branch (feature-1, feature-2, feature-3).
+Each workflow should have a job that deploys the web application with the specific feature implemented.
+Configure the workflow to trigger on push events to the main branch and pull requests targeting the main branch.
+
+
+i200871:
+Add a "About Us" link to the navigation bar.
+Add a "Contact" link to the navigation bar
+Add a footer with the current year and a link to the GitHub repository.
+Configure each workflow to trigger on push events to its respective branch only.
+Create a GitHub Actions workflow file (main.yml) for the main branch.
+The workflow should have a job that deploys the web application with all features merged from feature branches.
